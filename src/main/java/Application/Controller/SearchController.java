@@ -49,4 +49,6 @@ public class SearchController {
     public String[] getSearchFormatAndAmount(@RequestParam String format, @RequestParam String orderBy){
         return new String[]{format, orderBy};
     }
+
+    // simple comment : added for repo refresh (to 'mark as complete' on platform) 
 }
